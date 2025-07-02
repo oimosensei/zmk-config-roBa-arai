@@ -69,6 +69,13 @@
             bindings = <&kp LANG_HANJA &kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp LEFT_ARROW>;
             label = "parenthesis";
         };
+
+        pass1: pass1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp N8 &kp U &kp H &kp S &kp N9 &kp R &kp S &kp M &kp LS(U) &kp LS(K) &kp N9 &kp N8>;
+            label = "PASS1";
+        };
     };
 
     behaviors {
